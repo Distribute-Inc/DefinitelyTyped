@@ -6476,27 +6476,27 @@ declare namespace Highcharts {
     }
 }
 
-declare global {
-    interface JQuery {
-        highcharts(): Highcharts.ChartObject;
-        /**
-        * Creates a new Highcharts.Chart for the current JQuery selector; usually
-        * a div selected by $('#container')
-        * @param {Options} options Options for this chart
-        * @return current {JQuery} selector the current JQuery selector
-        **/
-        highcharts(options: Highcharts.Options): JQuery;
-        /**
-        * Creates a new Highcharts.Chart for the current JQuery selector; usually
-        * a div selected by $('#container')
-        * @param {Options} options Options for this chart
-        * @param callback Callback function used to manipulate the constructed chart instance
-        * @return current {JQuery} selector the current JQuery selector
-        **/
-        highcharts(options: Highcharts.Options, callback: (chart: Highcharts.ChartObject) => void): JQuery;
-    }
-}
+// declare global {
+//     interface JQuery {
+//         highcharts(): Highcharts.ChartObject;
+//         /**
+//         * Creates a new Highcharts.Chart for the current JQuery selector; usually
+//         * a div selected by $('#container')
+//         * @param {Options} options Options for this chart
+//         * @return current {JQuery} selector the current JQuery selector
+//         **/
+//         highcharts(options: Highcharts.Options): JQuery;
+//         /**
+//         * Creates a new Highcharts.Chart for the current JQuery selector; usually
+//         * a div selected by $('#container')
+//         * @param {Options} options Options for this chart
+//         * @param callback Callback function used to manipulate the constructed chart instance
+//         * @return current {JQuery} selector the current JQuery selector
+//         **/
+//         highcharts(options: Highcharts.Options, callback: (chart: Highcharts.ChartObject) => void): JQuery;
+//     }
+// }
 
 declare var Highcharts: Highcharts.Static;
-export = Highcharts;
-export as namespace Highcharts;
+//export = Highcharts;
+//export as namespace Highcharts;
